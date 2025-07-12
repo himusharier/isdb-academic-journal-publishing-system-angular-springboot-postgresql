@@ -24,7 +24,9 @@ class _OnlineSubmissionScreenState extends State<OnlineSubmissionScreen> {
     setState(() => isLoading = true);
 
     try {
-      final Uri submissionUrl = Uri.parse('http://localhost:4500/');
+      final Uri submissionUrl = Uri.parse(
+        'http://160.191.128.250:4500/user/submission/',
+      );
 
       if (await canLaunchUrl(submissionUrl)) {
         await launchUrl(submissionUrl, mode: LaunchMode.externalApplication);
@@ -88,7 +90,7 @@ class _OnlineSubmissionScreenState extends State<OnlineSubmissionScreen> {
             ),
             const SizedBox(height: 16),
             Text(
-              'http://localhost:4500/',
+              'http://160.191.128.250:4500/user/submission/',
               style: TextStyle(
                 fontSize: 14,
                 color: Colors.grey[600],

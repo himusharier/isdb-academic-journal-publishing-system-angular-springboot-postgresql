@@ -1,6 +1,9 @@
 class AppConfig {
-  static final String getBaseUrl = 'http://192.168.1.100:8090';
-  static final String getApiBaseUrl = 'http://192.168.1.100:8090';
+  // static final String getBaseUrl = 'http://192.168.1.101:8090';
+  // static final String getApiBaseUrl = 'http://192.168.1.101:8090';
+
+  static final String getBaseUrl = 'http://192.168.43.62:8090';
+  static final String getApiBaseUrl = 'http://192.168.43.62:8090';
 
   // static final String getBaseUrl = 'http://192.168.0.79:8090';
   // static final String getApiBaseUrl = 'http://192.168.0.79:8090';
